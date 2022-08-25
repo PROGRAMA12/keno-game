@@ -1,0 +1,102 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<style>
+    .red-text {
+        color: red;
+        text-align: center;
+    }
+    
+    h2 {
+        font-family: Lobster, Monospace;
+    }
+    
+    p {
+        font-size: 16px;
+        font-family: Monospace;
+    }
+    
+    .btn {
+        color: rgb(76, 0, 255);
+        width: 100px;
+        height: 100px;
+        display: flex;
+    }
+    
+    .bt {
+        color: green;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .smaller-image {
+        width: 100px;
+    }
+    
+    .winner {
+        color: red;
+        size: 100px;
+        font-size: 300px;
+        background-color: cyan;
+        text-align: center;
+        text-shadow: 10px;
+    }
+    
+    .pl {
+        width: 500px;
+        height: 50px;
+    }
+    
+    .list {
+        background-color: rgb(0, 255, 34);
+        text-decoration: wavy;
+        font-size: 50px;
+        text-align: center
+    }
+    
+    .divi {
+        color: blueviolet;
+    }
+    
+    .userPlace {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    
+    .results {
+        font-size: 100px;
+        color: red;
+    }
+    
+    .final {
+        color: blue;
+        font-size: 40px;
+    }
+</style>
+
+
+
+<div class="container-fluid">
+    <h2 class="red-text text-center">გ ა თ ა მ ა შ ე ბ ა კენო - პატიოსანი</h2>
+
+
+    <p></p>
+    <div class="divi"> <button class="btn" type="submit" onclick="addition()"><i class="fa fa-paper-plane"></i>თამაშის დაწყება</button></div>
+
+
+
+    <div class="winner" id="Winner"></div>
+    <div class="list" id="list">გამარჯვებული ციფრები</div>
+    <div class="list" id="spinner"></div>
+    <input type="number" min="1" max=30 class="userPlace" id="userPlace">
+    <input type="number" min="1" max=30 class="userPlace" id="userPlace1">
+    <input type="number" min="1" max=30 class="userPlace" id="userPlace2">
+    <input type="number" min="1" max=30 class="userPlace" id="userPlace3">
+    <input type="number" min="1" max=30 class="userPlace" id="userPlace4">
+    <div class="final" id="userPlaceFinal">შენი შერჩეული ციფრები</div>
+    <div class="results" id="results"></div>
+    <button onclick="subUserNums()">submit</button>
+    <script src="index.js"></script>
+    </form>
+</div>
