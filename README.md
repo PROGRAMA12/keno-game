@@ -1,2 +1,0 @@
-# keno-game
-keno-game
